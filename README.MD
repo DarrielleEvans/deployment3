@@ -20,6 +20,7 @@ A new hire was tasked with updating the URL shortener. The new hire committed ve
 * Rolled the code back to the last commit containing version 1 of the application 
   - command/s git push --force
 * Ran the force option to push the code and ignore commits that came after. The version2Error branch contains these commits.
+* add the following to the Jenkins file: stage ('Deploy') { steps { sh '/var/lib/jenkins/.local/bin/eb deploy' } }
 
 ### Step 2
 * Accessed the Elastic Beanstalk environment and downloaded the last 100 logs
