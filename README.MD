@@ -24,6 +24,7 @@ A new hire was tasked with updating the URL shortener. The new hire committed ve
 ### Step 2
 * Accessed the Elastic Beanstalk environment and downloaded the last 100 logs
 
+
 * The logs are reporting that Line 20 is not converting the JSON object into a str, byte, or bytearray.
 * After examing line 20 in the code base, the error is that the intern is using loads instead of load to convert the Json. The correct line of code is urls = json.load(urls_file)
 
