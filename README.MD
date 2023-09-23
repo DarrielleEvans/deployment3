@@ -28,7 +28,7 @@ A new hire was tasked with updating the URL shortener. The new hire committed ve
 
 ### Is the issue fully resolved? Yes
 
-### Prevention Methods
+## Prevention Methods
 * Restrict the ability for team members to push code to production without a code review from designated managers. 
 * Create proper documentation that all developers will adhere to that includes instructions on creating individual branches when making changes to the main code.
 
